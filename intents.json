@@ -1,0 +1,548 @@
+{
+ "intents": [
+  {
+   "tag": "greeting",
+   "patterns": [
+    "Hi",
+    "Hi there",
+    "How are you",
+    "Is anyone there?",
+    "Hey",
+    "Hello",
+    "Good day"
+   ],
+   "responses": [
+    "Hi, how can I assist?",
+    "Hello, how can I help you today?",
+    "Hi, I am great, how can I help today?",
+    "Good to see you again!",
+    "Hi there, how can I help?"
+   ],
+   "context": [
+    ""
+   ]
+  },
+  {
+   "tag": "goodbye",
+   "patterns": [
+    "Bye",
+    "See you later",
+    "Goodbye",
+    "Nice chatting with you, bye",
+    "Till next time"
+   ],
+   "responses": [
+    "See you!",
+    "Have a nice day!",
+    "Thank you, see you again soon!",
+    "Bye! Come back again soon.",
+    "Goodbye"
+   ],
+   "context": [
+    ""
+   ]
+  },
+  {
+   "tag": "thanks",
+   "patterns": [
+    "Thanks",
+    "Thank you",
+    "That's helpful",
+    "Awesome, thanks",
+    "Thanks for helping me"
+   ],
+   "responses": [
+    "Happy to help!",
+    "Any time!",
+    "Glad I was able to help!",
+    "You are welcome!",
+    "My pleasure"
+   ],
+   "context": [
+    ""
+   ]
+  },
+  {
+   "tag": "noanswer",
+   "patterns": [],
+   "responses": [
+    "Sorry, can't understand you",
+    "Please provide more information",
+    "Not sure I understand"
+   ],
+   "context": [
+    ""
+   ]
+  },
+  {
+   "tag": "options",
+   "patterns": [
+    "How can you help me?",
+    "What type of help do you provide?",
+    "How can you be helpful?",
+    "What do you do?"
+   ],
+   "responses": [
+    "I can guide you through: \n-adverse management problems, \n-order tracking, \n-person to be contacted, \n-department related queries, \n-or even weather forecasts for countries in the main language for that country"
+   ],
+   "context": [
+    ""
+   ]
+  },
+  {
+   "tag": "order_tracking",
+   "patterns": [
+    "What is happening with order 55555?",
+    "What is the status for order 55555?",
+    "Track order 55555",
+    "Where is my order 55555?"
+   ],
+   "responses": [
+    "Delayed",
+    "Dispatched",
+    "Cancelled",
+    "On the Way!"
+   ],
+   "context": [
+    ""
+   ]
+  },
+  {
+   "tag": "order_components",
+   "patterns": [
+    "order 55555 comprises of?",
+    "What is in order 55555?",
+    "List of components"
+   ],
+   "responses": [
+    "The order comprises of a computer and a television",
+    "The order includes dog treats and a dog bed"
+   ],
+   "context": [
+    ""
+   ]
+  },
+  {
+   "tag": "missing_id",
+   "patterns": [
+    "Where is the order?",
+    "Where is my order?",
+    "Locate the order",
+    "Delivery date of order"
+   ],
+   "responses": [
+    "Please enter with order's ID",
+    "Which order are you referring to?"
+   ],
+   "context": [
+    ""
+   ]
+  },
+  {
+   "tag": "Location",
+   "patterns": [
+    "Please find the location for order 55555",
+    "What is the location for order 55555?"
+   ],
+   "responses": [
+    "It is in Germany",
+    "It is in France",
+    "It is in the United States",
+    "It has reached China"
+   ],
+   "context": [
+    ""
+   ]
+  },
+  {
+   "tag": "search_person_by_id",
+   "patterns": [
+    "I want an appoitment with Dr. Jane Doe",
+    "Please set an appointment with Dr. James Jones"
+   ],
+   "responses": [
+    "Fixing an appointment.",
+    "Setting up an appointment now."
+   ],
+   "context": [
+    ""
+   ]
+  },
+  {
+   "tag": "appointment_status",
+   "patterns": [
+    "Is my appointment fixed?",
+    "Do I have an appointment today?"
+   ],
+   "responses": [
+    "Yes",
+    "All set!",
+    "No! Not Yet"
+   ],
+   "context": [
+    ""
+   ]
+  },
+  {
+   "tag": "check_leave",
+   "patterns": [
+    "Is Dr. Jane Doe on leave?",
+    "Is Dr. James Jones on leave?"
+   ],
+   "responses": [
+    "Not On Leave",
+    "Yes On Leave"
+   ],
+   "context": [
+    ""
+   ]
+  },
+  {
+   "tag": "forgot_password",
+   "patterns": [
+    "I forgot my login password",
+    "what to do when someone forgets their password?",
+    "I forgot my work password",
+    "Forgot the virtual machine password"
+   ],
+   "responses": [
+    "Please enter your email id and we will send a link to your email shortly"
+   ],
+   "context": [
+    ""
+   ]
+  },
+  {
+   "tag": "email_id",
+   "patterns": [
+    "abc@gmail.com",
+    "abc@yahoo.com"
+   ],
+   "responses": [
+    "The link has been sent. Please change your password!"
+   ],
+   "context": [
+    ""
+   ]
+  },
+  {
+   "tag": "manufacturing_problems",
+   "patterns": [
+    "Please find me a manufacturer nearby"
+   ],
+   "responses": [
+    "The nearest manufacturer is 20 miles away",
+    "The nearest manufacturer is 50 miles away"
+   ],
+   "context": [
+    ""
+   ]
+  },
+  {
+   "tag": "search_department",
+   "patterns": [
+    "Please list the departments"
+   ],
+   "responses": [
+    "The departments are: \n-Engineering Research and Development, \n-Manufacturing Systems Engineering, \n-New Products Development, \n-Manufacturing Department, \n-Quality Department, \n-Maintenance Department, \n-Marketing Department, \n-Human Resources Development, \n-Personnel Department, \n-Finance Department"
+   ],
+   "context": [
+    ""
+   ]
+  },
+  {
+   "tag": "key_customers",
+   "patterns": [
+    "Our Target customers",
+    "Who are your target customers?"
+   ],
+   "responses": [
+    "Our target customers are in the age range of 20-40"
+   ],
+   "context": [
+    ""
+   ]
+  },
+  {
+   "tag": "supplier_info",
+   "patterns": [
+    "What information is shared with supplier?"
+   ],
+   "responses": [
+    "Production Schedule, Delivery Schedule"
+   ],
+   "context": [
+    ""
+   ]
+  },
+  {
+   "tag": "highest_grossing",
+   "patterns": [
+    "What is the highest grossing product?"
+   ],
+   "responses": [
+    "iPhone X",
+    "Platform boots"
+   ],
+   "context": [
+    ""
+   ]
+  },
+  {
+   "tag": "connect_people",
+   "patterns": [
+    "I want to meet the head of the HR/IT/Projects departments",
+    "I want to meet the head of HR."
+   ],
+   "responses": [
+    "I will just check if he or she is available."
+   ],
+   "context": [
+    ""
+   ]
+  },
+  {
+   "tag": "solve_problems",
+   "patterns": [
+    "Lack of product clarity",
+    "the specifications for the product are not clear to the customer. What can be done?"
+   ],
+   "responses": [
+    "Please enter an order. Specifications will be sent to user!"
+   ],
+   "context": [
+    ""
+   ]
+  },
+  {
+   "tag": "predict_performance",
+   "patterns": [
+    "how have we improved sales from last year?",
+    "what is the profit margin this year?"
+   ],
+   "responses": [
+    "we have improved sales by increasing the customer base",
+    "profit earnings are at 15%"
+   ],
+   "context": [
+    ""
+   ]
+  },
+  {
+   "tag": "customer_satisfaction",
+   "patterns": [
+    "how was the customer response",
+    "Is the customer happy?",
+    "what was the customer feedback?"
+   ],
+   "responses": [
+    "Customer was happy and has given good rating"
+   ],
+   "context": [
+    ""
+   ]
+  },
+  {
+   "tag": "gadgets",
+   "patterns": [
+    "What are the gadgets in stock?",
+    "which products are available?"
+   ],
+   "responses": [
+    "hardisk, wireless bluetooth, laptop, gaming console"
+   ],
+   "context": [
+    ""
+   ]
+  },
+  {
+   "tag": "invalid",
+   "patterns": [
+    "chat with me",
+    "I am confused",
+    "I don't know what to work on"
+   ],
+   "responses": [
+    "Please ask a more specific question."
+   ],
+   "context": [
+    ""
+   ]
+  },
+  {
+   "tag": "noans",
+   "patterns": [
+    "why",
+    "how",
+    "when",
+    "I",
+    "you"
+   ],
+   "responses": [
+    "Can't understand your question",
+    "Please elaborate!"
+   ],
+   "context": [
+    ""
+   ]
+  },
+  {
+   "tag": "turnover",
+   "patterns": [
+    "what is the turnover at this company at present?"
+   ],
+   "responses": [
+    "I do not have an answer to your question."
+   ],
+   "context": [
+    ""
+   ]
+  },
+  {
+   "tag": "predict_delay",
+   "patterns": [
+    "why is order 55555 delayed?"
+   ],
+   "responses": [
+    "delay is due to manufacuring",
+    "Delay is due to unavailable components"
+   ],
+   "context": [
+    ""
+   ]
+  },
+  {
+   "tag": "name",
+   "patterns": [
+    "what is your name?",
+    "what should I call you?"
+   ],
+   "responses": [
+    "You can call me CSUBot",
+    "Hey! I'm CSUBot"
+   ],
+   "context": [
+    ""
+   ]
+  },
+  {
+   "tag": "about",
+   "patterns": [
+    "how you doing?",
+    "how are you?"
+   ],
+   "responses": [
+    "Thanks For asking! I am good. How can I help you?"
+   ],
+   "context": [
+    ""
+   ]
+  },
+  {
+   "tag": "configuration",
+   "patterns": [
+    "How to configure my laptop?",
+    "software configuration of a laptop",
+    "steps to configure a laptop",
+    "How to configure my computer?",
+    "software configuration for a computer",
+    "steps to configure my computer",
+    "How to configure my desktop?",
+    "software configuration for a desktop",
+    "steps to configure a desktop"
+   ],
+   "responses": [
+    "search tab->control panel->select specific application->download update->give permission"
+   ],
+   "context": [
+    ""
+   ]
+  },
+  {
+   "tag": "Weather",
+   "patterns": [
+    "what is the weather today?",
+    "weather",
+    "Weather",
+    "What is the weather forecast in ",
+    "What is the weather forecast in France?",
+    "What is the weather forecast in Germany?",
+    "What is the weather forecast in England?",
+    "What is the weather forecast in the United States?"
+   ],
+   "responses": [
+    "The weather displays below using the country's language."
+   ],
+   "context": [
+    ""
+   ]
+  },
+  {
+   "tag": "leave",
+   "patterns": [
+    "Is Jane Doe on leave?",
+    "Is James Jones present today?",
+    "Is Jane Doe in the office?"
+   ],
+   "responses": [
+    "Give me a moment! I will check",
+    "yes",
+    "no"
+   ],
+   "context": [
+    ""
+   ]
+  },
+  {
+   "tag": "hours",
+   "patterns": [
+    "Opening hours for the cafeteria?",
+    "when does the cafeteria open",
+    "office restaurant opening time"
+   ],
+   "responses": [
+    "It is open from Monday-Saturday from 9:00am to 5:00pm"
+   ],
+   "context": [
+    ""
+   ]
+  },
+  {
+   "tag": "domain",
+   "patterns": [
+    "How to improve team members domain knowledge",
+    "improving domain knowledge for team members"
+   ],
+   "responses": [
+    "set up meetings and workshop, \ncreate a shared drive for holding information, \nHold information sharing session"
+   ],
+   "context": [
+    ""
+   ]
+  },
+  {
+   "tag": "Cars",
+   "patterns": [
+    "How much is a 2022 honda odyssey?",
+    "How much is a 2022 mini convertible?"
+   ],
+   "responses": [
+    "A 2022 honda odyssey costs between 32k and 49k",
+    "A 2022 mini convertible costs between 28k and 39k"
+   ],
+   "context": ""
+  },
+  {
+   "tag": "dogs",
+   "patterns": [
+    "Chihuahua",
+    "Italian Greyhound"
+   ],
+   "responses": [
+    "They can live 10 to 15 years",
+    "They enjoy treats and walks in nature"
+   ],
+   "context": ""
+  }
+ ]
+}
