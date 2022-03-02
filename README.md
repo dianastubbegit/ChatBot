@@ -9,9 +9,9 @@ the chatbot is an open-domain AI-based contextual chatbot that keeps track of th
 The chatbot trains using intents, patterns, and responses. The user’s question translates to the intents class with the help of neural networks (NN), which will ingest the context and then return a random response within the class.
 
 The critical prerequisites used for the chatbot project include:
-    1. PyCharm IDE: 2021.3.1 Community Edition
-    2. Python: 3.8.5
-    3. Modules: nltk 3.6.7, pickle, TensorFlow 2.7.0, Keras 2.7.0, NumPy 1.19.5, and sklearn 0.0 (Note: a dependency on Scipy’s package is also required)
+    1. PyCharm IDE: 2021.3.1 Community Edition.
+    2. Python: 3.8.5.
+    3. Modules: nltk 3.6.7, pickle, TensorFlow 2.7.0, Keras 2.7.0, NumPy 1.19.5, and sklearn 0.0 (Note: a dependency on Scipy’s package is also required).
     4. API: Open Weather API (OpenWeather, 2021) retrieves the forecast by country and returns it in the language for the country requested.
 
 The files included in this project are:
