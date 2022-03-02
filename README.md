@@ -34,9 +34,15 @@ Usage Instructions (please see the figures below for explanations):
 2. For the executable to run, please double-click on chatbot_gui.exe.
 3. The files in the folder include must include the following:
    a. chatbot_gui.exe
+   
    b. chatbot_model.h5
+   
    c. countries.json
+   
    d. intents.json
+   
    e. training_data.file
+   
    f. 3 Python files
+   
 
