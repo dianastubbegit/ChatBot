@@ -1,6 +1,4 @@
 """
-
-Class:  CSC 525 - Module 8 - Option 2 - Portfolio Project - Diana Stubbe - Dr. Issa - 01/09/2022
 Topic:  NLP Chatbot Final Version
 
 Source:
@@ -39,7 +37,7 @@ BG_COLOR = "#808080"
 TEXT_COLOR = "#FFF"
 FONT = "Arial 12"
 FONT_BOLD = "Arial 11 bold"
-api_key = "e95abc1560983e41dc514771db837784"
+api_key = "<Add Weather API Key Here>"
 
 
 class ChatBot:
