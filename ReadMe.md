@@ -8,29 +8,34 @@ The AI-based chatbots employ NLP and machine learning (ML) to deliver a better r
 the chatbot is an open-domain AI-based contextual chatbot that keeps track of the context or how the user poses a question. The project uses a Sequential model for the training sets of data using deep learning (DL) techniques. 
 The chatbot trains using intents, patterns, and responses. The user’s question translates to the intents class with the help of neural networks (NN), which will ingest the context and then return a random response within the class.
 
-The critical prerequisites used for the chatbot project include:
+The prerequisites used for the chatbot project include:
 
     1. PyCharm IDE: 2021.3.1 Community Edition.
     
     2. Python: 3.8.5.
     
-    3. Modules: nltk 3.6.7, pickle, TensorFlow 2.7.0, Keras 2.7.0, NumPy 1.19.5, and sklearn 0.0 (Note: a dependency on Scipy’s package is also required).
+    3. Modules: nltk 3.6.7, pickle, TensorFlow 2.7.0, Keras 2.7.0, NumPy 1.19.5, and sklearn 0.0 
+       (Note: a dependency on Scipy’s package is also required).
     
-    4. API: Open Weather API (OpenWeather, 2021) retrieves the forecast by country and returns it in the language for the country requested.
+    4. API: Open Weather API (OpenWeather, 2021) retrieves the forecast by country and returns it 
+       in the language for the country requested.
     
 The files included in this project are:
 
     1. intents.json: JSON file that contains sets of tags, patterns, and responses. 
     
-    2. countries.json – JSON file that contains a list of countries and their respective country code to use while calling the Open Weather API.
+    2. countries.json – JSON file that contains a list of countries and their respective 
+       country code to use while calling the Open Weather API.
     
     3. training.py: creates the model and trains the python chatbot.
     
-    4. training_data.file: contains a list of words, patterns, and training sets in a binary format that trains the chatbot model.
+    4. training_data.file: contains a list of words, patterns, and training 
+       sets in a binary format that trains the chatbot model.
     
     5. chatbot_model.h5: stores the trained model neurons weights and the configurations for the model.
     
-    6. testing.py: used to predict which tag (classes) the user’s query belongs to and returns a random response from that tag.
+    6. testing.py: used to predict which tag (classes) the user’s query belongs to 
+       and returns a random response from that tag.
     
     7. chatbot_gui.py: the GUI for the chatbot where users can interact with the bot and train the bot.
     
