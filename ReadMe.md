@@ -46,6 +46,7 @@ For the interface, Python’s Tkinter package provides the necessary options to 
 **Run the chatbot and sample conversations**
 
 Usage Instructions (please see the figures below for explanations):
+
 1. Please extract the zip file into a location in the folder system.
 2. For the executable to run, please double-click on chatbot_gui.exe.
 3. The files in the folder include must include the following:
