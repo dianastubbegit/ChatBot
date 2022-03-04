@@ -20,7 +20,7 @@ The prerequisites used for the chatbot project include:
     4. API: Open Weather API (OpenWeather, 2021) retrieves the forecast by country and returns it 
        in the language for the country requested.
     
-The files included in this project are:
+The files included in this project are listed below:
 
     1. intents.json: JSON file that contains sets of tags, patterns, and responses. 
     
